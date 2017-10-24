@@ -51,6 +51,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise', '~> 4.3'
+
 group :development, :test do
   gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
 end
@@ -58,3 +59,9 @@ end
 group :test do
   gem 'capybara', '~> 2.9', '>= 2.9.1'
 end
+
+# Use Bootstrap for styling
+gem 'bootstrap-sass', '~> 3.3.6'
+
+# Use jQuery for easier javascript
+gem 'jquery-rails', '~> 4.3.1'
